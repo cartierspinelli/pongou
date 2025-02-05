@@ -1,0 +1,19 @@
+{
+  "output": {
+    "filePath": "aura-shared-contents.txt",
+    "style": "plain",
+    "removeComments": false,
+    "removeEmptyLines": false,
+    "topFilesLength": 5,
+    "showLineNumbers": false
+  },
+  "include": [],
+  "ignore": {
+    "useGitignore": false,
+    "useDefaultPatterns": true,
+    "customPatterns": []
+  },
+  "security": {
+    "enableSecurityCheck": true
+  } 
+}

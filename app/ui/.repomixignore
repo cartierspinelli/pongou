@@ -1,0 +1,8 @@
+# Add patterns to ignore here, one per line
+# Example:
+# *.log
+# tmp/
+aura-shared-old.txt
+.repomixignore
+repomix.config.json
+ReadMe.md

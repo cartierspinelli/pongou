@@ -1,0 +1,58 @@
+{
+  "screens": [
+    {
+      "name": "Welcome",
+      "componentName": "WelcomeScreen",
+      "is_navbar": true,
+      "icon": {
+        "focused": "home-outline",
+        "unfocused": "home-outline"
+      }
+    },
+    {
+      "name": "Lobby",
+      "componentName": "LobbyScreen",
+      "is_navbar": true,
+      "icon": {
+        "focused": "home",
+        "unfocused": "home"
+      }
+    },
+    {
+      "name": "GameArena",
+      "componentName": "GameArenaScreen",
+      "is_navbar": false,
+      "icon": {
+        "focused": "gamepad",
+        "unfocused": "gamepad"
+      }
+    },
+    {
+      "name": "Wallet",
+      "componentName": "WalletScreen",
+      "is_navbar": true,
+      "icon": {
+        "focused": "wallet",
+        "unfocused": "wallet"
+      }
+    },
+    {
+      "name": "LiveMatches",
+      "componentName": "LiveMatchesScreen",
+      "is_navbar": true,
+      "icon": {
+        "focused": "tv",
+        "unfocused": "tv"
+      }
+    },
+    {
+      "name": "CreateMatch",
+      "componentName": "CreateMatchScreen",
+      "is_navbar": false,
+      "icon": {
+        "focused": "plus-circle",
+        "unfocused": "plus-circle"
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "watcher": "inotify",
+  "ignore_dirs": [".git"]
+}

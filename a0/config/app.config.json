@@ -1,0 +1,85 @@
+{
+  "auth": {
+    "methods": [],
+    "provider": "supabase",
+    "required": false,
+    "organization": {
+      "type": "single_user",
+      "teams": false,
+      "workspaces": false
+    }
+  },
+  "theme": {
+    "font": "Roboto",
+    "colors": {
+      "dark": {
+        "dim": "#5E626B",
+        "card": "#15191e",
+        "info": "#54c7ec",
+        "error": "#ff6b6b",
+        "accent": "#aef80d",
+        "border": "#2A303C",
+        "inverse": "#FFFFFF",
+        "neutral": "#7c7194",
+        "primary": "#570DF8",
+        "success": "#87cf3a",
+        "warning": "#f7c325",
+        "base-100": "#1d232a",
+        "base-200": "#191e24",
+        "base-300": "#15191e",
+        "secondary": "#000000",
+        "background": "#060606",
+        "base-content": "#FFFFFF",
+        "color-scheme": "dark",
+        "info-content": "#000000",
+        "error-content": "#000000",
+        "accent-content": "#000000",
+        "inverse-content": "#000000",
+        "neutral-content": "#FFFFFF",
+        "primary-content": "#FFFFFF",
+        "success-content": "#000000",
+        "warning-content": "#000000",
+        "secondary-content": "#FFFFFF"
+      },
+      "light": {
+        "dim": "#878A90",
+        "card": "#E5E6E6",
+        "info": "#3ABFF8",
+        "error": "#F87272",
+        "accent": "#aef80d",
+        "border": "#E5E7EB",
+        "inverse": "#000000",
+        "neutral": "#7c7194",
+        "primary": "#570DF8",
+        "success": "#36D399",
+        "warning": "#FBBD23",
+        "base-100": "#FFFFFF",
+        "base-200": "#F2F2F2",
+        "base-300": "#E5E6E6",
+        "secondary": "#000000",
+        "background": "#FFFFFF",
+        "base-content": "#1F2937",
+        "color-scheme": "light",
+        "info-content": "#FFFFFF",
+        "error-content": "#FFFFFF",
+        "accent-content": "#000000",
+        "inverse-content": "#FFFFFF",
+        "neutral-content": "#FFFFFF",
+        "primary-content": "#FFFFFF",
+        "success-content": "#FFFFFF",
+        "warning-content": "#FFFFFF",
+        "secondary-content": "#FFFFFF"
+      }
+    },
+    "isDarkMode": false
+  },
+  "basics": {
+    "icon": null,
+    "name": "pongou",
+    "slug": "pongou",
+    "description": "Create a competitive Pong game app with integrated betting functionality. The app should include:\nGame Mechanics:\n\nClassic Pong gameplay mechanics with modern controls\nBest of 3 matches format (first to win 2 games)\nReal-time multiplayer functionality\n\nBetting System:\n\nSecure escrow system that holds players' stakes during matches\nAutomated payout system to winners\nMinimum and maximum bet limits\nTransaction history and betting statistics\nClear fee structure for platform usage\n\nUser Interface:\n\nClean, modern dashboard showing:\n\nAvailable matches with their stake amounts\nPlayer rankings and win/loss records\nLive matches currently in progress\nHistorical match results\n\n\nMatch creation interface where players can:\n\nSet their stake amount\nChoose match settings (speed, paddle size, etc.)\nAdd match description or requirements\n\n\n\nUser Features:\n\nUser profiles with reputation system\nWallet integration for deposits/withdrawals\nMatch history and statistics\nChat functional"
+  },
+  "monetization": {
+    "plans": {}
+  }
+}

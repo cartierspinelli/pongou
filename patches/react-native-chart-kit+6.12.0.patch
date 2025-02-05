@@ -1,0 +1,15 @@
+diff --git a/node_modules/react-native-chart-kit/dist/BarChart.d.ts b/node_modules/react-native-chart-kit/dist/BarChart.d.ts
+index fe6c012..657a99c 100644
+--- a/node_modules/react-native-chart-kit/dist/BarChart.d.ts
++++ b/node_modules/react-native-chart-kit/dist/BarChart.d.ts
+@@ -8,8 +8,8 @@ export interface BarChartProps extends AbstractChartProps {
+     height: number;
+     fromZero?: boolean;
+     withInnerLines?: boolean;
+-    yAxisLabel: string;
+-    yAxisSuffix: string;
++    yAxisLabel?: string;
++    yAxisSuffix?: string;
+     chartConfig: AbstractChartConfig;
+     style?: Partial<ViewStyle>;
+     horizontalLabelRotation?: number;
